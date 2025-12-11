@@ -15,7 +15,7 @@ m = []
 xcoords = []
 ycoords = []
 
-with open("in.txt", "r") as file:
+with open("Day 9/in.txt", "r") as file:
     for line in file:
         x, y = map(int,line.strip().split(','))
         m.append([x,y])
